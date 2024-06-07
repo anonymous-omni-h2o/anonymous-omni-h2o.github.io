@@ -52,6 +52,12 @@
           </div>
         </div>
       </div>
+
+      <div class="columns is-centered">
+        <div class="column is-two-thirds is-centered has-text-centered">
+          <video class="lazy-video" controls loop muted playsinline src="./resources/Teaser-OmniH2O-Anonymous.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -65,7 +71,7 @@
         <h2 class="title is-2">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            
+            We present OmniH2O (Omni Human-to-Humanoid), a learning-based system for whole-body humanoid teleoperation and autonomy. Using kinematic pose as a universal control interface, OmniH2O enables various ways for a human to control a full-sized humanoid with dexterous hands, including using real-time teleoperation through VR headset, verbal instruction, and RGB camera. OmniH2O also enables full autonomy by learning from teleoperated demonstrations or integrating with frontier models such as GPT-4. OmniH2O demonstrates versatility and dexterity in various real-world whole-body tasks through teleoperation or autonomy, such as playing multiple sports, moving and manipulating objects, and interacting with humans. We develop an RL-based sim-to-real pipeline, which involves large-scale retargeting and augmentation of human motion datasets, learning a real-world deployable policy with sparse sensor input by imitating a privileged teacher policy, and reward designs to enhance robustness and stability. We release the first humanoid whole-body control dataset, OmniH2O-6, containing six everyday tasks, and demonstrate humanoid whole-body skill learning from teleoperated datasets.
           </p>
         </div>
       </div>
@@ -74,6 +80,269 @@
 </section>
 
 
+
+
+<section class="section">
+  <div class="container">
+    <h2 class="title is-2" style="text-align: center;">Dexterous Human-to-Humanoid Whole-Body Teleoperation</h2>
+    <div class="columns is-centered">
+      <div class="column is-full-width is-centered has-text-centered">
+        <video class="lazy-video" controls loop muted playsinline src="./resources/teleoperation/OmniH2O-BrushH2O.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+        <div class="content is-two-third has-text-centered">
+        </div>
+      </div>
+      <div class="column is-full-width is-centered has-text-centered">
+        <video class="lazy-video" controls loop muted playsinline src="./resources/teleoperation/OmniH2O-Teleop-3toys.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+        <div class="content is-two-third has-text-centered">
+        </div>
+      </div>
+      <div class="column is-full-width is-centered has-text-centered">
+        <video class="lazy-video" controls loop muted playsinline src="./resources/teleoperation/OmniH2O-BasketLeftRightHandover.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+        <div class="content is-two-third has-text-centered">
+        </div>
+      </div>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-full-width is-centered has-text-centered">
+        <video class="lazy-video" controls loop muted playsinline src="./resources/teleoperation/OmniH2O-SquatPickBasket.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+        <div class="content is-two-third has-text-centered">
+        </div>
+      </div>
+      <div class="column is-full-width is-centered has-text-centered">
+        <video class="lazy-video" controls loop muted playsinline src="./resources/teleoperation/OmniH2O-WheelBasket.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+        <div class="content is-two-third has-text-centered">
+        </div>
+      </div>
+      <div class="column is-full-width is-centered has-text-centered">
+        <video class="lazy-video" controls loop muted playsinline src="./resources/teleoperation/OmniH2O-Waterflowering.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+        <div class="content is-two-third has-text-centered">
+        </div>
+      </div>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-full-width is-centered has-text-centered">
+        <video class="lazy-video" controls loop muted playsinline src="./resources/teleoperation/OmniH2O-BoxingDynamic.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+        <div class="content is-two-third has-text-centered">
+        </div>
+      </div>
+      <div class="column is-full-width is-centered has-text-centered">
+        <video class="lazy-video" controls loop muted playsinline src="./resources/teleoperation/OmniH2O-ForwardBackward2Basket.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+        <div class="content is-two-third has-text-centered">
+        </div>
+      </div>
+      <div class="column is-full-width is-centered has-text-centered">
+        <video class="lazy-video" controls loop muted playsinline src="./resources/teleoperation/OmniH2O-BubbleToy.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+        <div class="content is-two-third has-text-centered">
+        </div>
+      </div>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-full-width is-centered has-text-centered">
+        <video class="lazy-video" controls loop muted playsinline src="./resources/teleoperation/OmniH2O-Tennis.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+        <div class="content is-two-third has-text-centered">
+        </div>
+      </div>
+      <div class="column is-full-width is-centered has-text-centered">
+        <video class="lazy-video" controls loop muted playsinline src="./resources/teleoperation/OmniH2O-TableTennis.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+        <div class="content is-two-third has-text-centered">
+        </div>
+      </div>
+      <div class="column is-full-width is-centered has-text-centered">
+        <video class="lazy-video" controls loop muted playsinline src="./resources/teleoperation/OmniH2O-Badminton.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+        <div class="content is-two-third has-text-centered">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 class="title is-2" style="text-align: center;">
+      Verbal Instructions 
+      <span style="font-size: 2.0rem; color: grey;">(MDM)</span>
+    </h2>
+    <div class="columns is-centered">
+      <div class="column is-full-width is-centered has-text-centered">
+        <video class="lazy-video" controls loop muted playsinline src="./resources/verbal/OmniH2O-MDM-clip1.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+      </div>
+      <div class="column is-full-width is-centered has-text-centered">
+        <video class="lazy-video" controls loop muted playsinline src="./resources/verbal/OmniH2O-MDM-clip2.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 class="title is-2" style="text-align: center;">
+      Autonomous Agent 
+      <span style="font-size: 2.0rem; color: grey;">(GPT-4o)</span>
+    </h2>
+    <div class="columns is-centered">
+      <div class="column is-full-width is-centered has-text-centered">
+        <video class="lazy-video" controls loop muted playsinline src="./resources/gpt4o/OmniH2O-GPT4o-AutonomousBoxing.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+      </div>
+      <div class="column is-full-width is-centered has-text-centered">
+        <video class="lazy-video" controls loop muted playsinline src="./resources/gpt4o/OmniH2O-GPT4o-AutonomousGreeting.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 class="title is-2" style="text-align: center;">
+      Autonomous Agent 
+      <span style="font-size: 1.8rem; color: grey;">(Diffusion Policy Learned from Teleoperation Demonstrations)</span>
+    </h2>
+    <div class="columns is-centered">
+      <div class="column is-two-fourth is-centered has-text-centered">
+        <video class="lazy-video" controls loop muted playsinline src="./resources/lfd-auto/LfD-Auto-OmniH2O-Catsh-Release.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+      </div>
+      <div class="column is-two-fourth is-centered has-text-centered">
+        <video class="lazy-video" controls loop muted playsinline src="./resources/lfd-auto/LfD-Auto-OmniH2O-Squat.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+      </div>
+      <div class="column is-two-fourth is-centered has-text-centered">
+        <video class="lazy-video" controls loop muted playsinline src="./resources/lfd-auto/LfD-Auto-OmniH2O-Hammer-Catch.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+      </div>
+      <div class="column is-two-fourth is-centered has-text-centered">
+        <video class="lazy-video" controls loop muted playsinline src="./resources/lfd-auto/LfD-Auto-OmniH2O-RPS.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container">
+    <h2 class="title is-2" style="text-align: center;">
+      Robustness Test
+      <span style="font-size: 2.0rem; color: grey;">(the same motion tracking policy)</span>
+    </h2>
+    <div class="columns is-centered">
+      <div class="column is-full-width is-centered has-text-centered">
+        <video class="lazy-video" controls loop muted playsinline src="./resources/robustness/OmniH2O-Robustness-clip1.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+      </div>
+      <div class="column is-full-width is-centered has-text-centered">
+        <video class="lazy-video" controls loop muted playsinline src="./resources/robustness/OmniH2O-Robustness-clip2.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container">
+    <h2 class="title is-2" style="text-align: center;">
+      Outdoor Locomotion
+      <span style="font-size: 2.0rem; color: grey;">(the same motion tracking policy)</span>
+    </h2>
+    <div class="columns is-centered">
+      <div class="column is-two-fourth is-centered has-text-centered">
+        <video class="lazy-video" controls loop muted playsinline src="./resources/locomotion/OutdoorLocomotion-Clip1.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+      </div>
+      <div class="column is-two-fourth is-centered has-text-centered">
+        <video class="lazy-video" controls loop muted playsinline src="./resources/locomotion/OutdoorLocomotion-Clip2.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+      </div>
+      <div class="column is-two-fourth is-centered has-text-centered">
+        <video class="lazy-video" controls loop muted playsinline src="./resources/locomotion/OutdoorLocomotion-Clip3.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+      </div>
+      <div class="column is-two-fourth is-centered has-text-centered">
+        <video class="lazy-video" controls loop muted playsinline src="./resources/locomotion/OutdoorLocomotion-Clip4.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+      </div>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-two-fourth is-centered has-text-centered">
+        <video class="lazy-video" controls loop muted playsinline src="./resources/locomotion/OutdoorLocomotion-Clip5.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+      </div>
+      <div class="column is-two-fourth is-centered has-text-centered">
+        <video class="lazy-video" controls loop muted playsinline src="./resources/locomotion/OutdoorLocomotion-Clip7.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+      </div>
+      <div class="column is-two-fourth is-centered has-text-centered">
+        <video class="lazy-video" controls loop muted playsinline src="./resources/locomotion/OutdoorLocomotion-Clip8.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+      </div>
+      <div class="column is-two-fourth is-centered has-text-centered">
+        <video class="lazy-video" controls loop muted playsinline src="./resources/locomotion/OutdoorLocomotion-Clip9-720P.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 class="title is-2" style="text-align: center;">Method</h2>
+    <h2 class="title is-4" style="text-align: center;">OmniH2O</h2>
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-three-thirds">
+        <div class="content has-text-justified">
+          <ol type="a">
+            <li> OmniH2O retargets large-scale human motions and filters out infeasible motions for humanoids.
+            </li>
+            <li> Our <span style="color: RoyalBlue; font-weight: bold;">sim-to-real policy</span> is distilled through supervised learning from an <span style="color: darkred; font-weight: bold;">RL-trained privileged policy</span> using privileged information.
+            </li>
+            <li> The universal design of OmniH2O supports versatile <span style="color: DarkGreen; font-weight: bold;">human control interfaces</span> including VR headset and RGB camera <i>etc.</i> The sim-to-real policy also supports being controlled by <span style="color: gold; font-weight: bold;">autonomous agents</span> like GPT-4 or Diffusion policy trained by <span style="color: Purple; font-weight: bold;">teleoperation dataset</span> to generate motion goals.
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+    
+    <div class="columns is-centered">
+      <div class="column is-four-fifth">
+        <img src="./resources/method/OmniH2O-Pipeline.png" alt="" style="width: 100%;" />
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container">
+    <h2 class="title is-2" style="text-align: center;">Failure Cases</h2>
+    <div class="columns is-centered">
+      <div class="column is-full-width is-centered has-text-centered">
+        <video class="lazy-video" controls loop muted playsinline src="./resources/failure/FailureCase-Crash1.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+        <div class="content is-two-third has-text-centered">
+        </div>
+      </div>
+      <div class="column is-full-width is-centered has-text-centered">
+        <video class="lazy-video" controls loop muted playsinline src="./resources/failure/FailureCase-Crash2.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+        <div class="content is-two-third has-text-centered">
+        </div>
+      </div>
+      <div class="column is-full-width is-centered has-text-centered">
+        <video class="lazy-video" controls loop muted playsinline src="./resources/failure/FailureCase-Hammer.mp4" poster="./resources/loading-icon.gif" style="border: 1px solid #bbb; border-radius: 10px; margin: 1.0%;"></video>
+        <div class="content is-two-third has-text-centered">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    // Create an intersection observer
+    let observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          // Start playing the video
+          entry.target.play();
+        } else {
+          // Pause the video
+          entry.target.pause();
+        }
+      });
+    }, { threshold: 0.5 }); // You can adjust the threshold value to suit your needs
+
+    // Observe each video element
+    document.querySelectorAll('.lazy-video').forEach(video => {
+      observer.observe(video);
+    });
+  });
+</script>
 
 
 
